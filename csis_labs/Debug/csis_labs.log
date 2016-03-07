@@ -1,2 +1,1 @@
-﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-c:\users\wilme\documents\visual studio 2015\Projects\csis_labs\Debug\csis_labs.exe : fatal error LNK1120: 1 unresolved externals
+﻿  csis_labs.vcxproj -> c:\users\wilme\documents\visual studio 2015\Projects\csis_labs\Debug\csis_labs.exe

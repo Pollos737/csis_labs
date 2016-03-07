@@ -1,7 +1,7 @@
 /*****************************************************************************
 Program name: grade.c
-Author: Wilmer Guerra
-Date Submitted: 
+Author: Wilmer Guerra 008424284
+Date Submitted: 3/6/2016
 Class: CSCI 112
 Instructor: Chris Slater
 Compiler: Visual Studio 2015
@@ -46,7 +46,7 @@ Design
 	2.1. add up test scores
 	2.2 Divide sum of test scores by number of tests inputed
 3. Output results to user
-	2.3 use printf to display results to user.
+	3.1 use printf to display results to user.
 *****************************************************************************/
 
 /*****************************************************************************
@@ -93,4 +93,5 @@ void calculateAverage() {
 
 	average = sumOfTestScores / numOfTestScores;
 	printf("Your Average Test Score: %.2f\n\n", average);
+	fprintf(csis, "Your Average Test Score: %.2f\n\n", average);
 }
